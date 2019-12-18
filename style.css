@@ -1,0 +1,26 @@
+.piece{
+    height: 32px;
+    width: 32px;
+    display: block;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.player0{
+    background-color: grey;
+}
+
+.player1{
+    background-color: blue;
+}
+
+.player2{
+    background-color: red;
+}
+
+.board_square{
+    border: 1px solid;
+    height: 36px;
+    width: 36px;
+}
