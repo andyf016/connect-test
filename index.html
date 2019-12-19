@@ -7,9 +7,10 @@
     <link rel = "stylesheet" type = "text/css" href = "style.css">
     <title>Connecting 4</title>
 </head>
-<body onload="beginGame();">
-    <button id="beginGame" onclick="beginGame();">Begin Game</button>
+<body >
+    
     <div id="gameboard">
+        <button id="beginGame" onclick="beginGame();">Begin Game</button>
         <div id ="game_info"></div>
     <table id = "game_table">
         <thead>
@@ -29,7 +30,7 @@
         
       <script>
       
-      for (var row=0; row<=5; row++) {
+      for (var row=0; row<=5; row++) { //Draw game table 
         document.writeln("<tr>");	
 					for (var col=0; col<=6; col++) {
                         document.writeln("<td id='square_" + row + "_"+ col +"' class='board_square'></td>");							
