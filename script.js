@@ -88,7 +88,7 @@ let checkForWin = function () {
 let endGame = function(winningPlayer) {        //End Game function
     console.log("end")
     gameActive = false;
-    document.getElementById('game_info').innerHTML = "Winner: " + winningPlayer;
+    document.getElementById('game_info').innerHTML = "Crushing Victory! Player: " + winningPlayer;
     
 }
 
@@ -120,4 +120,4 @@ let drop = function (col) {                 //Add peice to the lowest possible c
 
 
 
-//beginGame();
+beginGame();
