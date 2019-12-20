@@ -36,3 +36,14 @@
     c. Show endgame messge 
     d. allow restart 
 */
+
+  _________________________________
+/ Group Members: Andy Fillenwarth, \
+  Keith Garcia, Darion Suggs, 
+\ John Klaine Jr.                  /
+ -----------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||    

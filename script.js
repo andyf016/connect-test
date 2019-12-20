@@ -9,7 +9,7 @@ let dropCounts = 0
 let beginGame = function () {
     if (gameActive == true) return false;
     gameActive = true;
-
+    document.getElementById("beginGame").disabled = true;
     for (row = 0; row <= 5; row++) {
         gameBoard[row] = [];
         for (col = 0; col <= 6; col++) {
@@ -90,7 +90,7 @@ let checkForWin = function () {
 
 let endGame = function(winningPlayer) {        //End Game function
     console.log("end")
-    dropCounts = 0
+    dropCounts = -1
     document.getElementById("game_table").disabled = true;
     gameActive = false;
     document.getElementById('game_info').innerHTML = "Crushing Victory! Player: " + winningPlayer;
@@ -98,6 +98,7 @@ let endGame = function(winningPlayer) {        //End Game function
         for (i = 0; i<7; i++){
             buttons[i].disabled = true;
         }
+        document.getElementById("beginGame").disabled = false;
     
 }
 
